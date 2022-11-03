@@ -1,4 +1,4 @@
-@extends('template')
+@extends('project')
 
 @section('content')
 {{--  CSS  --}}
@@ -61,10 +61,10 @@
 <div class="content">
   <div class="container2" >
    {{--  Content  --}}
-   <div class="row mt-4" style="background-color: white">
+   <div class="row mt-4 ml-4 pl-4 mr-4 ml-4" style="background-color: white">
     @foreach($barang as $b)
-      <div class="col-md-4 mt-4">
-        <div class="card bg-light" style="height:100%;">
+      <div class="col-md-4 mt-4 mb-4">
+        <div class="card bg-light p-4 m-4" style="height:100%; width: 25rem;">
             <img src="{{ $b['image'] }}" class="card-img-top" alt="Image"> 
             <div class="card-body" >
               <p class="card-text text-black"><h4><b>{{ $b['name']}}</b></h4></p>

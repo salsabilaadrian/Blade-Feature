@@ -1,4 +1,4 @@
-@extends('template')
+@extends('project')
 
 <style>
   .container1{
@@ -21,10 +21,11 @@
       <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
       <input type="password" class="form-control" id="exampleInputPassword1">
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-dark">Submit</button>
   </form>
   <div class="container2">
-   <a href="login"><i>Do you have an Account?</i></a>
+  <br>
+   <a href="login" style="color: black;"><u><i>Do you have an Account?</i></u></a>
 </div>
 </div>
 
