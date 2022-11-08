@@ -27,6 +27,20 @@
     text-decoration: line-through;
   }
 
+  @media screen and (max-width:768px) {
+    .content {
+        width:100%;
+    }
+    .container2 {
+        max-width:100%;
+        width: 100%;
+    }
+    .col-md-4{
+        width:100%;
+        float:left;
+        margin:0;
+    }
+  }
 </style>
 
 <div class="container">
